@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <div className="flex flex-col justify-between sm:flex-row sm:py-10">
       <div className="flex flex-col max-w-xl p-4 sm:p-8 space-y-8">
-        <h3 className="font-acuminpro text-4xl ">
+        <h3 className="font-acuminpro text-md sm:text-4xl ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Amet tellus cras adipiscing enim eu. Risus pretium quam vulputate dignissim suspendisse in. Quam pellentesque nec nam aliquam sem.
         </h3>

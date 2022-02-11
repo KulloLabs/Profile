@@ -40,7 +40,7 @@ const TeamsItems = (): any => {
 const Teams = () => {
   return (
     <div className="flex flex-col justify-center items-center space-y-4">
-      <h3 className="underline underline-offset-1 font-poppins text-4xl font-normal" >Teams</h3>
+      <h3 className="underline underline-offset-4 font-poppins text-4xl font-normal" >Teams</h3>
 
         <section className="">
           <ul className="flex flex-col sm:flex-row justify-center items-center">

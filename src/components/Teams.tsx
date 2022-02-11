@@ -5,15 +5,18 @@ import twitter from "./images/twitterwhite.svg"
 const TeamList = [
   {
     Name: "Luthfi Quartziosa Sulistiyo",
-    Role: "Project Management"
+    Role: "Project Management",
+    Email: "mailto:luthfiquart@kullolabs.com"
   },
   {
     Name: "Akiid Nasaka",
-    Role: "Project Operation"
+    Role: "Project Operation",
+    Email: "mailto:nasaka@kullolabs.com"
   },
   {
     Name: "Muhammad Azhar",
-    Role: "Project Finance"
+    Role: "Project Finance",
+    Email: "mailto:azhar@kullolabs.com"
   }
 ]
 
@@ -25,7 +28,7 @@ const TeamsItems = (): any => {
           <img className="top-0 w-32" src={avatar} alt="" />
           <h3 className="underline font-poppins text-gray-200 pt-4">{item.Name}</h3>
           <p className="font-poppins text-sm font-thin text-gray-200 pt-1">{item.Role}</p>
-          <a className="pt-4" href="https://github.com/KulloLabs"><img className="fill-white" alt="" src={twitter}/></a>
+          <a className="pt-4" href={item.Email}><img className="fill-white" alt="" src={twitter}/></a>
         </div>
       </li>
 

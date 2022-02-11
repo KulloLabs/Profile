@@ -12,8 +12,8 @@ const Profile = () => {
         <hr className="opacity-0" />
 
 
-        <h3 className="font-poppins text-4xl font-normal">
-          <a className="underline underline-offset-4" href="mailto:info@kullolabs.com">More Info</a> <a className="text-slate-200">//</a> <a className="underline underline-offset-4" href="https://github.com/KulloLabs">Github</a>
+        <h3 className="flex flex-row font-poppins text-4xl font-normal space-x-1">
+          <a className="underline underline-offset-4" href="mailto:info@kullolabs.com">More Info</a><p className="text-slate-200"> // </p> <a className="underline underline-offset-4" href="https://github.com/KulloLabs">Github</a>
         </h3>
 
         <hr className="opacity-0" />
@@ -26,7 +26,7 @@ const Profile = () => {
       </div>
 
       <div className="flex max-w-[100] p-4 sm:p-8">
-        <img className="sm:w-fit" src={banner}/>
+        <img className="sm:w-fit" alt="" src={banner}/>
       </div>
   </div>
   )

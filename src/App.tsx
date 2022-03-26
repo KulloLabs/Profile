@@ -8,7 +8,7 @@ const App = () => {
     <div className="flex flex-col">
         <Header/>
         <Profile/>
-        <Teams/>
+        <!--<Teams/> -->
         <Footer/>
     </div>
   )
